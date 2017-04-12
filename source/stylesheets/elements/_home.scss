@@ -1,0 +1,42 @@
+.home-hero {
+	background-color: $primary-color;
+}
+
+ul.pricing-link {
+	list-style: none;
+	display: inline-block;
+	li {
+		float: left;
+		&.underline {
+			text-decoration: underline;
+		}
+	}
+
+}
+
+.partners-band {
+  background: $light-gray-color;
+  box-shadow: 0 1px 0 0 #E5E9ED;
+	background-image: url("../images/partners.png");
+}
+
+.light-blue-band {
+	background-color: $light-blue-color
+}
+
+.float-left {
+	float: left;
+	padding-right: 10px;
+}
+
+.call-out-card {
+	box-shadow: 0 20px 34px 0 rgba(0,0,0,0.09);
+	border-radius: 15px;
+}
+
+.pink-num-call-out {
+	font-family: ProximaNova-Bold;
+	font-size: 86px;
+	color: $pink-color;
+	letter-spacing: 0;
+}
