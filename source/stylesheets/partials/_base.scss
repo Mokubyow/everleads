@@ -43,6 +43,17 @@ body{
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 
+// Flexbox
+
+.flex {
+  display: flex;
+}
+
+.eq {
+  flex: 1;
+}
+
+
 
 img{
 	height:auto;

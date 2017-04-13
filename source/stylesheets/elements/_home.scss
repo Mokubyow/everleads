@@ -1,5 +1,9 @@
 .home-hero {
-	background-color: $primary-color;
+	background-image: url(../images/home-hero-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
 }
 
 ul.pricing-link {
@@ -11,7 +15,11 @@ ul.pricing-link {
 			text-decoration: underline;
 		}
 	}
+}
 
+.responsive {
+	width: 100% !important;
+	height: auto !important;
 }
 
 .partners-band {

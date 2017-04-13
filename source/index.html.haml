@@ -1,5 +1,5 @@
 -# hero
-%section.inverse-section.home-hero.bg-cover{:style=>"background-image:url(../images/home-hero-bg.png);"}
+%section.inverse-section.home-hero
 	.container
 		.row
 			.col-lg-12.text-center
@@ -15,18 +15,11 @@
 				%a.btn.btn-wire.btn-strech{:href=>"#"}
 					Contact Sales
 
+-# partners
 .container
 	.row
 		.col-sm-12
 			%img.full-width{:src=>"../images/partners.png"}
--# .container
--# 	.row
--# 		.col-sm-12
--# 			.partners-band
-	-# .row
-	-# 	.col-sm-12
-	-# 		%img.full-width{:src=>"../images/partners.png"}
-
 
 -# how it works
 %section
@@ -34,24 +27,23 @@
 		.row
 			%h6.text-uppercase.primary-text-color.bold-font-name.text-center
 				The Missing Link
-		.row.quarter-margin-top
-			.col-sm-12.text-center
-				%h3
-					How Everleads works
+		.row.text-center
+			%h3
+				How Everleads works
 
-		.row.double-padding-top
+		.row.double-padding-top.flex
 			.col-md-1
 			.col-md-5
-				%img.img-responsive{:src=>"../images/home-request-the-data.png"}
-				%h5.bold-font-name
+				%img.img-responsive.half-padding-top{:src=>"../images/home-request-the-data.png"}
+				%h5.bold-font-name.double-padding-top
 					Request The Data
-				%p
+				%p.eq
 					= lorem.sentences 3
 			.col-md-5
-				%img{:src=>"../images/home-access-the-data.png"}
-				%h5.bold-font-name
+				%img.img-responsive{:src=>"../images/home-access-the-data.png"}
+				%h5.bold-font-name.double-padding-top
 					Access The Data
-				%p
+				%p.eq
 					= lorem.sentences 3
 			.col-md-1
 
@@ -90,7 +82,7 @@
 
 		.row.double-margin-top
 			.col-lg-12.text-center
-				%img.img-responsive{:src=>"../images/home-marketing-guru.png"}
+				%img.responsive{:src=>"../images/home-marketing-guru.png"}
 
 		.row.double-margin-top
 			.col-md-4
@@ -146,7 +138,7 @@
 					John Importantguy, CEO of BIG DATA GROUP, LLC
 			.col-sm-1
 
-%section.inverse-section.bg-cover.home-footer-bg.layer
+%section.inverse-section.bg-cover.home-footer-bg
 	.container
 		.row.text-center.navy-layer
 			%img{:src=>"../images/everlead-lightbulb.png"}
